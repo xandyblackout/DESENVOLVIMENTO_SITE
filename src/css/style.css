@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+html {
+    font-size: 60%;
+}
+
+main {
+    position: relative;
+}
+
+.setas {
+    width: 56px;
+    height: 78px;
+}
+
+#seta-esquerda {
+    margin-left: 20px;
+}
+
+.imagem {
+    display: none;
+}
+
+.slide-ativo {
+    display: block;
+    height: 100vh;
+}
+
+.primeiro-slide {
+    background-image:url(../img/imagem1.jpg);
+}
+
+.primeiro-slide span {
+    color: #c50000;
+}
+
+.segundo-slide {
+    background-image:url(../img/imagem2.jpg);
+}
+
+.segundo-slide span {
+    color: #d9dd10;
+}
+
+.terceiro-slide {
+    background-image:url(../img/imagem3.jpg);
+}
+
+.terceiro-slide span {
+    color: #a63a17;
+}
+
+.quarto-slide {
+    background-image:url(../img/imagem4.jpg);
+}
+
+.quarto-slide span {
+    color: #10acdd;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: top right;
+    align-items: center;
+    justify-content: right;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 85px;
+    width: 85px;
+    display: inline-block;
+    align-items: left;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 30px;
+ }
+
+ .secao-texto p {
+    font-size: 40px;
+    text-align:center;
+    margin: 0 none;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px;
+}
+
+.conteudo-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+
+}
+
+.galeria-itens{
+    width: 340px;
+    height: 250px;
+    border: 10px solid #FFF;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+
+}
+
+.galeria-itens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.slide-ativo .informacoes {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    background-color: #fff;
+    max-width: 402px;
+    width: 100%;
+    border-radius: 500px;
+    padding: 54px 59px 53px 60px;
+}
+
+.slide-ativo .informacoes1 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    background-color: #fff;
+    max-width: 402px;
+    width: 100%;
+    border-radius: 600px;
+    padding: 54px 59px 53px 60px;
+}
+
+.slide-ativo .informacoes1 img {
+    position: center;
+    top: 100px;
+    left: 60px;
+    background-color: #fff;
+    max-width: 280px;
+    border-radius: 500px;
+    padding: 60px 60px 60px 60px;
+
+}
+
+.slide-ativo .informacoes h2 {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.slide-ativo .informacoes p {
+    line-height: 35px;
+    font-size: 1.7rem;
+    font-weight: 300;
+    width: 100%;
+}
+
+.slide-ativo .informacoes span {
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 23px;
+    font-size: 2.5rem;
+}
+
+#seta-esquerda, #seta-direita {
+    top: 20%;
+    z-index: 7;
+    position: absolute;
+}
+
+#seta-direita {
+    right: 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 13px;
+    font-style: Arial;
+}
+
+/* .informacoes {
+    z-index: 2;
+} */
+
+/* .imagem {
+    display: none;
+} */
+
+
+/* label img {
+    width: 56px;
+    height: 78px;
+} */
+
+/* label input {
+    display: none;
+} */
+
+/* div {
+    background-color: white;
+    max-width: 350px;
+    width: 100%;
+    margin-left: 180px;
+    padding: 69px 60px 0 60px;
+    border-radius: 10px;
+} */
+
+/* div h1 {
+    font-size: 40px;
+    font-weight: 400;
+} */
+
+/* div p {
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 401px;
+    width: 100%;
+    margin-top: 60px;
+} */
+
+/* div span {
+    display: inline-block;
+    color: #C50000;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 40px 0 71px 0;
+} */
